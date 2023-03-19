@@ -20,7 +20,33 @@
         </form>
     </div>
 
-    <!-- Speed Detector -->
+    <!-- net salary -->
+
+    <div class="salaries">
+        <h1>Net Salary Calculator</h1>
+        <label for="gross salary">Enter your salary: </label>
+        <input type="number">
+        <label for="Mhasibu sacco">Mhasibu sacco: </label>
+        <input type="number">
+        <label for="private pension Deductions">private pension Deductions: </label>
+        <input type="number">
+        <label for="NHiFDeductions">NHIF Deductions: </label>
+        <button type="button" id="check-btn" onclick="achieveNetSalary()">Net Salary</button>
+        <input type="number">
+        <div id="salary"></div>
+    </div>
+
+
+    <!--speed detector-->
+
+    <div class="speed">
+        <h1>Speed Detector</h1>
+        <div class="label"><label for="speed-input">Enter car speed (in km/h): </label></div>
+        <div class="input"><input type="number" id="speed-input" placeholder="e.g. 80"></div>
+        <div class="button"><button id="check-btn" onclick="checkSpeed()">Check</button></div>
+        <div id="output"></div>
+    </div>
+
     
   
 
